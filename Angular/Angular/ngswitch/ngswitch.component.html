@@ -1,0 +1,8 @@
+<h2>{{title}}</h2>      
+<p *ngIf="showElement">Show Element</p>      
+<div [ngSwitch]="inpvalue">      
+<p style='color:blue' *ngSwitchCase="1">You have selected</p>      
+<p style='color:blue' *ngSwitchCase="2">Akshay and Ayshu</p>      
+<p style='color:blue' *ngSwitchCase="2">Good choice</p>     
+<p style='color:red' *ngSwitchDefault>Sorry! Invalid selection....</p>      
+</div>
